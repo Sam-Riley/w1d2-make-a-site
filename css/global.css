@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -15,10 +15,21 @@ margin-right: auto;
 border: 50px solid black;
 border-radius: 50%;
 background-color: white;
-
+}
+#sec1 {
+    background-color: #E8C547;
+}
+#sec2 {
+    background: url(/Users/samriley/Documents/neuromancer1.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5px 50px 50px 50px;
 
 }
+#sec3 {
 
+}
 .displayed {
     display: block;
     margin-left: auto;
@@ -28,14 +39,6 @@ background-color: white;
 p {
     font-size: 16px;
     text-align: center;
-}
-header {
-
-    background: red;
-    color: white;
-    text-align: center;
-    padding: 50px;
-
 }
 
 h4, .bottom-link{
