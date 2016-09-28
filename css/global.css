@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3, h4 {
     text-align: center;
 }
 
@@ -29,8 +29,11 @@ background-color: white;
 
 }
 #sec3 {
-
+background: url (../img/ocean.jpeg);
+background-position: fixed;
+background-attachment: fixed;
 }
+
 .displayed {
     display: block;
     margin-left: auto;
@@ -42,7 +45,7 @@ p {
     text-align: center;
 }
 
-h4, .bottom-link{
+.bottom-link{
     text-align: center;
 }
 
@@ -50,9 +53,7 @@ h4, .bottom-link{
 font-size: 100px;
 }
 
-body {
 
-}
 .ugly, .beautiful, button {
 
     width: 250px
